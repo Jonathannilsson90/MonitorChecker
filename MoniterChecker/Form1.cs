@@ -83,8 +83,6 @@ namespace MoniterChecker
             string monitorInfo = FetchVideoCardInfo();
             TbxScreenOne.Text = monitorInfo;
 
-
-
             string currentInfo = GetVideoCardInfo();
             TbxGeneralInfo.Text = currentInfo;
         }
